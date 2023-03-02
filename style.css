@@ -1,0 +1,303 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+/*------header Starts-----*/
+.header{
+    width: 100%;
+    height: 70px;
+    background-color: #2b6431;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-menu{
+    width: 550px;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+
+.nav-menu a{
+    font-size: 16px;
+    color: white;
+    font-family: Helvetica;
+    letter-spacing: .2em;
+    padding-left: 16px;
+    text-align: center;
+}
+.child{
+    height: 70px;
+    padding-top: 25px;
+    padding-right:10px;
+    transition: 0.5s;
+
+}
+
+
+
+.percentage{
+    color:red;
+    font-weight: bold;
+    background-color:white
+}
+
+.child:hover{
+    background-color: rgb(10, 79, 10);
+}
+
+
+
+
+.search-cart-user{
+    width: 280px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.search-cart-user input{
+    width: 200px;
+    height: 40px;
+}
+
+/*------header ends-----*/
+
+
+/*------nav drop down starts-----*/
+.dropdown-men{
+    width: 100%;
+    height: 380px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    margin-top: -550px;
+    visibility: hidden;
+    transition: all 0.3s ease;
+
+}
+
+.footwear{
+    width: 200px;
+    height:300px ;
+    padding: 30px;
+    border-right: 1px solid rgb(54, 53, 53) ;
+    line-height: normal;
+
+}
+
+.heading{
+    padding:30px;
+}
+
+
+/*------nav drop down ends-----*/
+
+.greenblock{
+    width: 100%;
+    height: 30px;
+    background-color: #2b6431;
+}
+
+.section1{
+    text-align: center;
+    display: flex;
+    font-family: sans-serif;
+    color: white;
+    
+}
+.box{
+    width: 25%;
+    height: 250px;
+    background-color: black;
+    padding: 30px 50px;
+    font-size: 30px;
+    border-right: .1px solid rgb(169, 169, 169);
+    line-height: 30px;
+    transition: .5s;
+}
+
+.section1 a{
+    font-weight: bold;
+    color: white;
+}
+
+.text{
+    font-size: medium;
+    visibility: hidden;
+}
+.box:hover .text{
+    visibility: visible;
+}
+.box:hover .text{
+    visibility: visible;
+}
+.box:hover{
+    background-color: #2b6431;
+}
+
+/*section1 ends*/
+
+/*section2 starts*/
+
+.section2{
+    position: relative;
+    width: 100%;
+    height: 385px;
+    
+
+}
+
+.background-info{
+    position: absolute;
+    bottom: 70px;
+    left: 60%;
+    font-size: 23px;
+    font-family: sans-serif;
+    color: white;
+    width: 560px;
+    
+}
+.background-info p{
+    font-size: large;
+}
+
+.explorenow a h3{
+    width:fit-content;
+    padding: 5px 20px;
+    color: white;
+    border: 1px solid #2b6431;
+    background-color: #2b6431;
+}
+
+
+.section3{
+    position: relative;
+    width: 100%;
+    height: 385px;
+    display: flex;
+    
+
+}
+
+.background-info2{
+    position: absolute;
+    bottom: 70px;
+    left: 10%;
+    font-size: 23px;
+    font-family: sans-serif;
+    color: white;
+    width: 560px;
+    
+}
+
+.part1{
+width: 100%;
+height: 200px;
+font-family: sans-serif;
+color: white;
+background-color: black;
+line-height: 1.5em;
+padding-top: 70px;
+padding-left: 30px;
+}
+
+.part2{
+    display: flex;
+}
+
+.sidea{
+    width: 50%;
+    height: 430px;
+    display: flex;
+    justify-content: space-around;
+    
+    font-size: 18px;
+    line-height: 2em;
+    background-color: black;
+    color: white;
+}
+
+.sideb{
+    width: 50%;
+    height: 430px;
+    line-height: 2em;
+    background-color: black;
+    color: white;
+}
+.subside1{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.subside2{
+    width:550px;
+    padding-left: 150px;
+    background-color: black;
+}
+
+
+
+
+.mailsubmit input{
+    height: 40px;
+}
+
+.mailsubmit button{
+    height: 40px;
+    background-color: #2b6431;
+    border-color: #2b6431;
+    color: white;
+    font-size: large;
+    width: 50px;
+}
+
+.part3{
+    width:100%;
+    height:80px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 30px;
+    color: white;
+}
+.social{
+    width:190px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
